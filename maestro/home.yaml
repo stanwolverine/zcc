@@ -1,0 +1,52 @@
+appId: com.stanwolverine.ZCC
+---
+- launchApp
+
+# Header
+- assertVisible: 'User Types'
+
+# Checking initial loading
+- assertVisible: 
+    text: '~*Admin'
+    below: 'User Types'
+- assertVisible: 'Admin Users'
+- extendedWaitUntil:
+    notVisible: 'loading'
+    timeout: 4000
+- assertVisible:
+    id: 'customers-list'
+- assertNotVisible: '*no results found*'
+- assertVisible:
+    id: 'customer-item-.*'
+- assertVisible:
+    id: 'customer-role-(?i)Admin'
+
+# Fetching Manager Customers
+- assertVisible:
+    id: 'radio-input-(?i)Manager'
+- tapOn:
+    id: 'radio-input-(?i)Manager'
+- assertVisible: 'Manager Users'
+- extendedWaitUntil:
+    notVisible: "loading"
+    timeout: 4000
+- assertVisible:
+    id: 'customers-list'
+- assertNotVisible: '*no results found*'
+- assertVisible:
+    id: 'customer-item-.*'
+
+# Refreshing Customers List
+- swipe:
+    from: 
+      id: 'customers-list'
+    direction: DOWN
+    duration: 800 # in millis.
+- extendedWaitUntil:
+    notVisible: "refreshing"
+    timeout: 4000
+- assertVisible:
+    id: 'customers-list'
+- assertNotVisible: '*no results found*'
+- assertVisible:
+    id: 'customer-item-.*'

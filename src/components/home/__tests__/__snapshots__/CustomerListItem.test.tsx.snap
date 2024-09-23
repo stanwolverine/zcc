@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomerListItem renders correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#fff",
+      },
+      {
+        "flexDirection": "row",
+        "gap": 12,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "#fff",
+        },
+        [
+          {
+            "alignItems": "center",
+            "aspectRatio": 1,
+            "borderRadius": 4,
+            "justifyContent": "center",
+            "minWidth": 45,
+          },
+          {
+            "backgroundColor": "#E7F2FB",
+          },
+        ],
+      ]
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "color": "#11181C",
+          },
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          {
+            "fontSize": 14,
+            "lineHeight": 21,
+          },
+          [
+            {
+              "textTransform": "uppercase",
+            },
+            {
+              "color": "#0171CE",
+            },
+          ],
+        ]
+      }
+    >
+      T
+    </Text>
+  </View>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "#fff",
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "color": "#11181C",
+          },
+          {
+            "fontSize": 16,
+            "lineHeight": 24,
+          },
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+        ]
+      }
+    >
+      Test
+    </Text>
+    <Text
+      style={
+        [
+          {
+            "color": "gray",
+          },
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          undefined,
+          {
+            "fontSize": 14,
+            "lineHeight": 21,
+          },
+          {
+            "textTransform": "capitalize",
+          },
+        ]
+      }
+    >
+      ADMIN
+    </Text>
+  </View>
+</View>
+`;
