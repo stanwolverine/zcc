@@ -1,5 +1,9 @@
 # ZCC - Zeller Coding Challenge 👋
 
+
+https://github.com/user-attachments/assets/32f13bf3-bdc4-4ba5-9831-3b5e5545341a
+
+
 ZCC app meets all the following requirements:
 - ✅ Supported Platforms: Android, iOS, Web
 - ✅ Uses Typescript
