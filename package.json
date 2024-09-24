@@ -4,6 +4,9 @@
   "version": "1.0.0",
   "scripts": {
     "start": "npx expo start",
+    "start:expo-go:android": "npx expo start -a",
+    "start:expo-go:ios": "npx expo start -i",
+    "start:expo-go:web": "npx expo start -w",
     "android": "npx expo run:android",
     "android:release-build": "npx expo run:android --variant release",
     "ios": "npx expo run:ios",
