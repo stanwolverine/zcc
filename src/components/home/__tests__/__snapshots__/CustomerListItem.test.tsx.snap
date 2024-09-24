@@ -13,6 +13,7 @@ exports[`CustomerListItem renders correctly 1`] = `
       },
     ]
   }
+  testID="customer-item-1"
 >
   <View
     style={
@@ -34,6 +35,7 @@ exports[`CustomerListItem renders correctly 1`] = `
         ],
       ]
     }
+    testID="customer-avatar-1"
   >
     <Text
       style={
@@ -92,6 +94,7 @@ exports[`CustomerListItem renders correctly 1`] = `
           undefined,
         ]
       }
+      testID="customer-name-Test"
     >
       Test
     </Text>
@@ -115,6 +118,7 @@ exports[`CustomerListItem renders correctly 1`] = `
           },
         ]
       }
+      testID="customer-role-ADMIN"
     >
       ADMIN
     </Text>
